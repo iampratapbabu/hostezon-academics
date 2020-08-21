@@ -1,13 +1,53 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-color: white;
+}
+i{
+  color:#fddb3a;
+  margin-bottom:8px;
+}
+h2{
+  font-family: 'Poppins', sans-serif;
+}
+.navbar-brand{
+  font-family: 'Poppins', sans-serif;
+
+}
+.card-title{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+span{
+  background-color: #005086;
+  color: #ffff;
+  margin-left: 5px;
+  padding:0 5px;
+  border-radius: 5px;
+
+}
+
+.btn-custom{
+  margin-left:5px;
+  margin-top:1rem;
+  margin-bottom:1rem;
+  color:#fddb3a;
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-btn{
+  background-color:#fff;
+  /* border: 1px solid black; */
+  margin-right:0.4rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bold;
+
+}
+
+
+
+.credit{
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
 }
